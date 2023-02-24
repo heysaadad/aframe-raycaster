@@ -56,9 +56,9 @@
             }
         });
         const currentPosition = walker.object3D.position;
-const distance = currentPosition.distanceTo(target);
-animation.setAttribute('dur', distance * 7000);
-walker.object3D.lookAt(target);
+        const distance = currentPosition.distanceTo(target);
+        animation.setAttribute('dur', distance * 7000);
+        walker.object3D.lookAt(target);
     </script>
     f
 </body>
